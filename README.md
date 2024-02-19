@@ -25,8 +25,8 @@ Here's an example of how to use the chatbot:
 ```python
 from transformers import AutoTokenizer, AutoModel
 
-tokenizer = AutoTokenizer.from_pretrained("path/to/pretrained/model")
-model = AutoModel.from_pretrained("path/to/pretrained/model").half().cuda()
+tokenizer = AutoTokenizer.from_pretrained("/kaggle/input/chatglm2/pytorch/6b/1")
+model = AutoModel.from_pretrained("/kaggle/input/chatglm2/pytorch/6b/1").half().cuda()
 
 response = model.chat("Hello, how are you?")
 print(response)
