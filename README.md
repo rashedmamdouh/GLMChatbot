@@ -12,7 +12,7 @@ pip install transformers==4.33.2
 ## Usage
 Clone the repository:
 ```
-git clone https://github.com/yourusername/ChatGLM2.git
+git clone https://github.com/rashedmamdouh/ChatGLM2.git
 cd ChatGLM2
 ```
 
@@ -20,7 +20,7 @@ cd ChatGLM2
 This repository includes pretrained models located in the `/models` directory. You can also use your own pretrained models by specifying the path when loading the model.
 
 ## Example
-Here's an example of how to use the chatbot:
+
 
 ```python
 from transformers import AutoTokenizer, AutoModel
