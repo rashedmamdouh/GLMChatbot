@@ -12,7 +12,7 @@ pip install transformers==4.33.2
 ## Usage
 Clone the repository:
 ```
-!git clone https://github.com/rashedmamdouh/ChatGLM2.git](https://github.com/rashedmamdouh/GLMChatbot
+!git clone https://github.com/rashedmamdouh/ChatGLM2.git
 cd ChatGLM2
 ```
 
