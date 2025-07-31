@@ -7,7 +7,6 @@ A lightweight chatbot service built with ChatGLM2. Enables interactive language 
 ## 🧾 Overview | نظرة عامة
 
 GLMChatbot wraps the ChatGLM2 conversational model to generate responses in real‑time.  
-المشروع يستخدم نموذج ChatGLM2 لإنشاء محادثات نصية تفاعلية باللغة الإنجليزية والصينية.
 
 ---
 
