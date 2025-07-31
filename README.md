@@ -4,22 +4,22 @@ A lightweight chatbot service built with ChatGLM2. Enables interactive language 
 
 ---
 
-## 🧾 Overview | نظرة عامة
+## 🧾 Overview 
 
 GLMChatbot wraps the ChatGLM2 conversational model to generate responses in real‑time.  
 
 ---
 
-## 🚀 Features | المميزات
+## 🚀 Features 
 
-- **ChatGLM2 integration:** Uses Hugging Face Transformers for generation. :contentReference[oaicite:1]{index=1}  
-- **Pretrained models included:** `/models` directory with ready-to-use weights. :contentReference[oaicite:2]{index=2}  
+- **ChatGLM2 integration:** Uses Hugging Face Transformers for generation.
+- **Pretrained models included:** `/models` directory with ready-to-use weights.
 - **Language support:** Handles both English and Chinese inputs with masked infilling.  
 - **Light setup:** Minimal dependencies, easy to customize and extend.
 
 ---
 
-## 🧩 Installation | التثبيت
+## 🧩 Installation 
 
 ```bash
 git clone https://github.com/rashedmamdouh/GLMChatbot.git
@@ -29,7 +29,7 @@ pip install transformers==4.33.2
 
 ---
 
-## 🛠️ Usage | طريقة الاستخدام
+## 🛠️ Usage 
 
 Launch from a notebook or script:
 
@@ -47,7 +47,7 @@ print(tokenizer.decode(outputs[0].tolist()))
 
 ---
 
-## 📂 Project Structure | هيكل المشروع
+## 📂 Project Structure 
 
 ```
 /
@@ -61,21 +61,14 @@ print(tokenizer.decode(outputs[0].tolist()))
 
 ---
 
-## ⚙️ Customization | التخصيص
+## ⚙️ Customization 
 
 * Load your own GLM‑formatted checkpoint: specify path in code.
 * Modify generation parameters: `max_length`, `num_beams`, `temperature`, etc.
 * Extend to multilingual input or add `pytorch_lightning` training pipelines.
 
----
 
-## 📝 License | الترخيص
-
-This project is MIT‑licensed. You’re free to use and modify it under the terms of the [LICENSE](LICENSE).
-
----
-
-## 🧪 Future Plans | الخطط المستقبلية
+## 🧪 Future Plans 
 
 * Add web API wrapper (FastAPI, Node.js backend with Chinese/English interface)
 * Real-time UI (chat frontend) using WebSockets or React/Next.js
@@ -83,7 +76,7 @@ This project is MIT‑licensed. You’re free to use and modify it under the ter
 
 ---
 
-## 👤 Maintainer | المطوّر
+## 👤 Maintainer 
 
 **Rashed Mamdouh** – AI & software engineer 👨‍💻
 
